@@ -26,6 +26,4 @@ accepts the image as an input, process the image and returns a Page. Once we get
 
 same on the console. Also for getting the confidence, we are using GetMeanConfidence() method of Page class.
 
-
-References
- https://github.com/charlesw/tesseract
+http://sandeepkanao.blogspot.com/
