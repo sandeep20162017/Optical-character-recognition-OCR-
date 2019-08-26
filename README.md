@@ -18,12 +18,6 @@ For example, for eng, download all files with eng prefix.
 Result will be System env var: TESSDATA_PREFIX=D:/Java/OCR And OCR folder has tessdata with languages files.
 
 
-At first we are creating a new instance of TesseractEngine with Default engineMode and English as the language. Next we 
-
-are loading the image file by using the Pix object which is a wrapper for Leptonica PIX structure.The tEngine.Process(img) 
-
-accepts the image as an input, process the image and returns a Page. Once we get the text from the image, we displays the 
-
-same on the console. Also for getting the confidence, we are using GetMeanConfidence() method of Page class.
+At first we are creating a new instance of TesseractEngine with Default engineMode and English as the language. Next we are loading the image file by using the Pix object which is a wrapper for Leptonica PIX structure.The tEngine.Process(img) accepts the image as an input, process the image and returns a Page. Once we get the text from the image, we displays the same on the console. Also for getting the confidence, we are using GetMeanConfidence() method of Page class.
 
 http://sandeepkanao.blogspot.com/
